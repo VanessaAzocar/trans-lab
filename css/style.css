@@ -36,8 +36,30 @@ h1{
 /*PARA OCULTAR TODO LO QUE SIGUE AL INGRESAR CONTRASEÑA*/
 .afterEntering{
   display: none;
+ 
 }
 .btnEnter{
   display: none;
 }
+
+/*menu*/
+.menu{
+  background-color: white;
+  width: 100%;
+}
+.menuTwo{
+  width: 100%;
+  background-color: orange;
+  border: none;
+  margin-top: 20px;
+  height: 50px;
+  color: white;
+}
+
+.gray{
+background-color: rgb(151, 150, 150);
+height: 650px;  
+}
+
+
 

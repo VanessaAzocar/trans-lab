@@ -1,7 +1,7 @@
 /* funcion de Ingresar contraseña */
 function enter() {
   const password = document.getElementById("inputPassword").value;
-  if (password.length <= 8 ) {
+  if (password.length <= 8) {
     const btnhide = document.getElementById('btnEnter');
     btnhide.addEventListener('click', () => {
       document.getElementsByClassName('startLogin')[0].classList.add('btnEnter');

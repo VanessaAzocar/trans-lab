@@ -43,8 +43,8 @@
               <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
               <p id="incorrectPassword"></p>
             </div>
-            <button type="button" class="btn btn-primary" id= "btnEnter" onclick= "enter()">INICIAR SESIÓN</button>
-           
+            <button type="button" class="btn btn-primary" id="btnEnter" onclick="enter()">INICIAR SESIÓN</button>
+
           </form>
         </div>
         <!-- div vacio -->
@@ -55,13 +55,101 @@
     </div>
   </section>
 
-     <!-- Seccion que aparece luego de Ingresar (PAGINA CON INFORMACION) -->
-     <section class="afterEntering">
+  <!-- Seccion afterEntering que aparece luego de Ingresar(PAGINA CON INFORMACION) -->
+  <section class="afterEntering">
+    <section class="gray">
+      <!-- comienzo menu -->
+      <section class="menu">
+        <!-- comienzo container -->
+        <div class="container-fluid">
+          <!-- comienzo row -->
+          <div class="row">
+            <!-- comienzo menu -->
+            <div class="col-sm-12">
+              <div class="pos-f-t">
+                <div class="collapse" id="navbarToggleExternalContent">
+                  <div class="bg-dark p-4">
+                    <ul class="nav flex-column">
+                      <!-- Ver Saldo-->
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">
+                          <i class="fas fa-dollar-sign"> </i> Ver Saldo</a>
+                      </li>
+                      <!-- Calcular Tarifa -->
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">
+                          <i class="fas fa-calculator"> </i> Calcular Tarifa</a>
+                      </li>
+                      <!-- Perfil -->
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">
+                          <i class="fas fa-user"> </i> Perfil</a>
+                      </li>
+                      <!-- Preguntas Frecuentes -->
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">
+                          <i class="fas fa-question"> </i> Preguntas Frecuentes</a>
+                      </li>
+                      <!-- HOME -->
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">
+                          <i class="fas fa-arrow-right"></i> Home</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <nav class="navbar navbar-dark bg-dark">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <!--comienzo menu  -->
+      </section>
 
-<h2>FUNCIONA</h2>
-       </section>
+      <!-- espacio botones -->
+      <section class="btnMenuTwo">
+        <!-- Boton Saldo -->
+        <div class="row btnBalance">
+          <div class="col-sm"></div>
+          <div class="col-sm">
+            <button class="menuTwo">VER SALDO</button>
+          </div>
+          <div class="col-sm"></div>
+        </div>
+        <!-- Boton Calcular tarifa -->
+        <div class="row btnRate">
+          <div class="col-sm"></div>
+          <div class="col-sm">
+            <button class="menuTwo">CALCULAR TARIFA</button>
+          </div>
+          <div class="col-sm"></div>
+        </div>
+        <!-- Boton Perfil -->
+        <div class="row btnProfile">
+          <div class="col-sm"></div>
+          <div class="col-sm">
+            <button class="menuTwo">PERFIL</button>
+          </div>
+          <div class="col-sm"></div>
+        </div>
+        <!-- Boton Perfil -->
+        <div class="row btnQuestion">
+          <div class="col-sm"></div>
+          <div class="col-sm">
+            <button class="menuTwo">PREGUNTAS FRECUENTES</button>
+          </div>
+          <div class="col-sm"></div>
+        </div>
+      </section>
+    </section>
+    <!-- fin afterEntering -->
+  </section>
 
-
+<!--  -->
 
 
   <!-- Link bootstraps -->
