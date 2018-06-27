@@ -1,5 +1,5 @@
 /*contenedor inicio*/
-.start{
+.startLogin{
   background-color: rgb(80, 79, 79);
   height: 650px;  
 }
@@ -26,5 +26,18 @@ h1{
   border: none;
   color:rgb(80, 79, 79);
   margin-top: 20px;
+}
+/*PARA EL MSJE DE CONTRASEÑA INVALIDA*/
+#incorrectPassword{
+  color: orange;
+  text-align: center;
+}
+
+/*PARA OCULTAR TODO LO QUE SIGUE AL INGRESAR CONTRASEÑA*/
+.afterEntering{
+  display: none;
+}
+.btnEnter{
+  display: none;
 }
 

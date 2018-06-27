@@ -1,9 +1,10 @@
 /* funcion de Ingresar contraseña */
 function enter() {
-  if (document.form.inputPassword.value.lenght >= ) {
-    const btnhide = document.getElementById('btn-primary');
+  const password = document.getElementById("inputPassword").value;
+  if (password.length <= 8 ) {
+    const btnhide = document.getElementById('btnEnter');
     btnhide.addEventListener('click', () => {
-      document.getElementsByClassName('submit')[0].classList.add('btn-primary');
+      document.getElementsByClassName('startLogin')[0].classList.add('btnEnter');
       document.getElementsByClassName('afterEntering')[0].classList.remove('afterEntering');
     }
     );
