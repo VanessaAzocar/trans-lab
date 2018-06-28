@@ -2,13 +2,10 @@
 function enter() {
   const password = document.getElementById("inputPassword").value;
   if (password.length <= 8) {
-    const btnhide = document.getElementById('btnEnter');
-    btnhide.addEventListener('click', () => {
-      document.getElementsByClassName('startLogin')[0].classList.add('btnEnter');
-      document.getElementsByClassName('afterEntering')[0].classList.remove('afterEntering');
-    }
-    );
+   window.open('home.html')
   } else {
-    document.getElementById('incorrectPassword').innerHTML = '¡Datos inválidos! Vuelve a intentarlo.';
+    document.getElementById('incorrectPassword').innerHTML = '¡Datos inválidos! La contraseña debe tener hasta 8 números.';
   }
 }
+
+

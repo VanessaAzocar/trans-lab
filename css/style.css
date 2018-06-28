@@ -33,22 +33,26 @@ h1{
   text-align: center;
 }
 
-/*PARA OCULTAR TODO LO QUE SIGUE AL INGRESAR CONTRASEÑA*/
-.afterEntering{
-  display: none;
- 
-}
-.btnEnter{
-  display: none;
-}
-
-/*menu*/
-.menu{
-  background-color: white;
+/*menu HOME*/
+.btnMenuTwo{
+  background-color: rgb(151, 150, 150);
   width: 100%;
+  height: 650px;
 }
-.menuTwo{
-  width: 100%;
+h2{
+  color:white;
+  font-size: 15px;
+  text-align: center;
+}
+.nav-link{
+  color:white;
+}
+.btnEverybody{
+text-align: center;
+}
+#menuTwo{
+  width: 90%;
+  text-align: center;
   background-color: orange;
   border: none;
   margin-top: 20px;
@@ -56,10 +60,7 @@ h1{
   color: white;
 }
 
-.gray{
-background-color: rgb(151, 150, 150);
-height: 650px;  
-}
+/*PERFIL*/
 
 
 
